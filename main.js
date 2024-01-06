@@ -20,11 +20,6 @@
 ///masalalar leetcode dan
 
 //masala 1
-// Hersi o'zining birinchi mashinasi uchun pul tejashni xohlaydi. U har kuni Leetcode bankiga pul qo'yadi.
-// U birinchi kuni dushanba kuni $1 qo'yish bilan boshlanadi. Seshanbadan yakshanbagacha har kuni u avvalgi kunga qaraganda 1 dollar ko'proq kiritadi.
-//  Har keyingi dushanba kuni u avvalgi dushanbaga qaraganda 1 dollar ko'proq kiritadi.
-// Berilgan n, n-kun oxirida Leetcode bankida bo'ladigan umumiy pul miqdorini qaytaring.
-//javob
 // function tejash(x) {
 //   let hafta = 0;
 //   let jami = 0;
@@ -45,10 +40,7 @@
 // alert(tejash());
 
 //masala 2
-// X butun soni berilgan bo'lsa, agar x a bo'lsa, true qiymatini qaytaring
-// palindrom
-// , aks holda false.
-//javob
+
 // let son = +prompt("Son kiritng")
 // let arr = son.toString().split("");
 // function palindrom(n) {
@@ -63,9 +55,7 @@
 // alert(palindrom(arr));
 
 //masala 3
-// Satrlar massivi orasidan eng uzun umumiy prefiks qatorini topish funksiyasini yozing.
-// Agar umumiy prefiks bo'lmasa, bo'sh "" qatorini qaytaring.
-//javob
+
 // let arr1 = ["Nodirebk", "Negmatov", "Nematov"];
 // let arr2 = arr1.
 // function umumiy(x) {
@@ -84,12 +74,6 @@
 // console.log(umumiy(arr1));
 
 //masala 4
-// Faqat '(', ')', '{', '}', '[' va ']' belgilarni o'z ichiga olgan s qatori berilgan bo'lsa, kiritish qatori to'g'ri yoki yo'qligini aniqlang.
-// Kirish qatori to'g'ri bo'ladi, agar:
-// Ochiq qavslar bir xil turdagi qavslar bilan yopilishi kerak.
-// Ochiq qavslar to'g'ri tartibda yopilishi kerak.
-// Har bir yopiq qavsda bir xil turdagi mos keladigan ochiq qavs mavjud.
-//Javob
 // function qavs(x) {
 //   let odd = ")";
 //   let tort = "]";
@@ -105,9 +89,7 @@
 // alert(qavs("("));
 
 //masala 5
-// Ikkita p va q ikkilik daraxtlarning ildizlarini hisobga olib, ular bir xil yoki bir xil emasligini tekshirish uchun funktsiya yozing.
-// Ikki binar daraxt, agar ular strukturaviy jihatdan bir xil bo'lsa va tugunlar bir xil qiymatga ega bo'lsa, bir xil hisoblanadi.
-//javob
+
 // function daraxtlar() {
 //   let p = [1, 2, 3];
 //   let q = [1, 2, 3];
